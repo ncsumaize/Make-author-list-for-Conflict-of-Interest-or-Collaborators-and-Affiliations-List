@@ -2,6 +2,8 @@
 
 I need to make conflict of interest/collaborator and affiliation lists for NSF and other government grant proposals. It's really a pain because I have A LOT of co-authors. So I wrote some python code to automate at least getting the list of co-author names.
 
+WARNING!!! To my sadness I have realized that downloading the references from scholar google does not get all the authors on all papers. If the author list is long, it appears that not all authors are guaranteed to be included in the downloaded citation list. :(
+
 1. Go to scholar google profile page (need to make one if you don't have it already)
 2. Click on the Year column header to sort by Year
 3. Select all publications in the last 48 months.
