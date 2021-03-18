@@ -9,7 +9,7 @@ I need to make conflict of interest/collaborator and affiliation lists for NSF a
 ![Orcid image](ExportingRefsFromORCID.png)
 
 2. Install bibtexparser package: >pip install bibtexparser
-3. Modify the python script [createCOIlist.py]createCOIlist.py to point to your downloaded file, change the currentYear, change the goBack number of years, and modify the output file path and name at end
+3. Modify the python script [createCOIlist.py](createCOIlist.py) to point to your downloaded file, change the currentYear, change the goBack number of years, and modify the output file path and name at end
 4. Run the script, then you can open the resulting file in a text editor or excel
 5. Names will be duplicated if they appear as different spellings or formattings (eg, "Smith, John" and "Smith, J." will both be there). I just go through by hand and edit out the duplicates.
 6. International character symbols are messed up, have to fix those by hand
