@@ -16,10 +16,10 @@ I need to make conflict of interest/collaborator and affiliation lists for NSF a
 7. A few edge cases like "J. Smith, Jr." and "Natalia de Leon" can get messed up, again just have to fix those by hands. 
 
 
-OLD WAY, left it here just in case, using [this file](COI_Author_List.py).
-WARNING!!! To my sadness I have realized that downloading the references from scholar google does not get all the authors on all papers. If the author list is long, it appears that not all authors are guaranteed to be included in the downloaded citation list. :(
-That's why I abandoned this and modified to use the ORCID download format in bibtext instead (shown above)
-
+OLD WAY, left it here just in case, using [this file](COI_Author_List.py).  
+I do not recommend this old method, because to my sadness I have realized that downloading the references from scholar google does not get all the authors on all papers. If the author list is long, it appears that not all authors are guaranteed to be included in the downloaded citation list. :(  
+That's why I abandoned this and modified to use the ORCID download format in bibtext instead (shown above)  
+  
 1. Go to scholar google profile page (need to make one if you don't have it already)
 2. Click on the Year column header to sort by Year
 3. Select all publications in the last 48 months.
